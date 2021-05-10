@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api_IRM", "Api_IRM.csproj", "{5C4DC243-E336-46D5-99EB-5C158ECF841C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C4DC243-E336-46D5-99EB-5C158ECF841C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C4DC243-E336-46D5-99EB-5C158ECF841C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C4DC243-E336-46D5-99EB-5C158ECF841C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C4DC243-E336-46D5-99EB-5C158ECF841C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2CCBDAB-8129-4985-AAE9-6114B52C54B1}
+	EndGlobalSection
+EndGlobal

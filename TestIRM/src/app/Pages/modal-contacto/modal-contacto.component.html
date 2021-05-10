@@ -1,0 +1,24 @@
+
+
+<div class="container">
+    <form [formGroup]="addForm">
+      <label for="nombre">Nombre Completo</label>
+      <input type="text" id="nombre" name="NombreCompleto" placeholder="Tu nombre" formControlName="NombreCompleto">
+  
+      <label for="direccion">Direccion</label>
+      <input type="text" id="direccion" name="Direccion" placeholder="Direccion" formControlName="Direccion">
+  
+      <label for="telefono">Telefono</label>
+      <input type="text" id="telefono" name="Telefono" placeholder="Telefono" formControlName="Telefono" maxlength="10" (keypress)="validarNumero($event)">
+
+      <label for="curp">CURP</label>
+      <input type="text" style="text-transform:uppercase" id="curp" name="CURP" placeholder="CURP" maxlength="18" formControlName="CURP">
+
+  
+      <button type="button" (click)="sendContact()">Enviar</button>
+    </form>
+   
+    </div> 
+    
+    
+    

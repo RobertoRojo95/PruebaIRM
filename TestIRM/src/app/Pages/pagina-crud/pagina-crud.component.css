@@ -1,0 +1,40 @@
+
+table {
+    width: 80%;
+  }
+
+.myHeader{
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(31, 55, 194);
+  color:white;
+  
+}
+
+.myClass{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.myTable{
+  width:100%;
+  flex:0 0 80%
+}
+
+.myInput{
+  padding: 20px 0px;
+  width: 100%;
+  flex: 0 0 80%;
+  display: flex;
+}
+
+.myButton{
+  margin-left:auto;
+  display: flex;
+}
+
+.secondButton{
+  margin-left:10px;
+  display: flex;
+}
